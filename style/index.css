@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.App{
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  
+  background-color:rgb(147, 147, 231);
+}
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  color: #1b1b1b;
+  margin: 20px 0;
+}
+.topSearch{
+  position: relative;
+  width: 250px;
+  max-width: 100%;
+  height: fit-content;
+  border: 1px solid burlywood;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+.topSearch > input{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+.topSearch > button{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: #eee;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+}
+.fa-search{
+  color:skyblue;
+}
+.row{
+  width: 85%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.section1{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  max-width: 100%;
+  display: flex;
+  margin: 40px 0;
+  border-radius: 6px;
+  /* padding: 5px; */
+}
+.btn{
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  outline: none;
+  border: none;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 1px 2px 3px 4px rgba(10,10,10,0.2);
+  border-radius: 0 6px 6px 0;
+}
+.fa-plus{
+  padding: 5px;
+}
+.section1 > input{
+  width: 100%;
+  padding: 8px 0;
+  height: 100%;
+  outline: none;
+  border: 2px solid burlywood;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+.section1 > input:focus{
+  border:  2px solid skyblue;
+} 
+.section2{
+  width: 100%;
+  max-width: 100%;
+  margin: 40px 0;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  background: #eee;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.1);
+  border-radius: 3px;
+  font-size: 16px;
+  color: #000;
+}
+.task{
+  font-size: 20px;
+  font-weight: 800;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.flex{
+  display: flex;
+}
+.listIcons{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.fa-trash:hover{
+  color: red;
+}
+.fa-pencil{
+  color:green;
+}
+.date{
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 300;
+}

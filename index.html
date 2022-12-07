@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <script src="https://kit.fontawesome.com/ce37077d63.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="App">
+  
+      <header>
+        <h1>Todo App</h1>
+        <div class="topSearch">
+          <button id="searchBtn">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          <input id="searchInput" type="text" placeholder="search for todo" />
+        </div>
+      </header>
+  
+      <section class="row">
+        <main id="form" class="section1">
+          <input id="input" type="text" placeholder="Enter todo..." />
+          <button  id="btn" class="btn">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+        </main>
+      </section>
+  
+      <section class="row">
+        <main class="section2">
+          <ul id="list">
+          </ul>
+        </main>
+      </section>
+    </div>
+  <script src="./script/index.js"></script>
+  </body>
+</html>
